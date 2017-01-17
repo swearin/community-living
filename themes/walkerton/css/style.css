@@ -36,9 +36,41 @@ a:hover {
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
+.navbar-nav {
+	float: right;
+    margin: 15px 0 0;
+}
+
 .navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a.is-active {
+    color: #039BE5;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: none;
+    color: #039BE5;
+}
+.navbar-nav>li:last-child a{
+	background-color: #E91E63;
+    color: #ffffff;
+    margin-left: 15px;
+    transition: background-color 0.2s ease;
+}
+
+.navbar-nav>li:last-child a:hover {
+	background-color: #C2185B;
+    color: #ffffff;	
 }
 
 /* Homepage Article */
@@ -177,7 +209,7 @@ a:hover {
 /* FOOTER */
 
 footer {
-	background: rgba(97,97,97,1);
+	background: #2d2d2d;
 	color: #ffffff;
 }
 
@@ -194,4 +226,16 @@ footer a, footer a:hover {
 footer .block {
 	width: 50%;
 	float: left;
+}
+
+#block-contactus .field--name-body {
+	font-size: 16px;
+}
+
+#block-contactus .field--name-body i {
+	margin-right: 5px;
+}
+
+#block-contactus .field--name-body .fa-facebook-official, #block-contactus .field--name-body .fa-phone {
+	font-size: 22px;
 }
