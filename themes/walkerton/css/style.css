@@ -1,0 +1,197 @@
+/**
+ * Custom styles for CL Walkerton.
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* OVERRIDES */
+
+.col-sm-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body {
+	padding-top: 40px;
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #039BE5;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.highlighted {
+	margin-top: -25px;
+}
+/* HEADER */
+
+.logo img {
+	width: 215px;
+}
+
+.navbar {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Homepage Article */
+.block-views-blockhomepage-article-block-1 {
+	margin-top: 15px;
+	position: relative;
+}
+.block-views-blockhomepage-article-block-1 h2.block-title {
+    font-size: 21px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 5px;
+}
+.homepage-article-right {
+    float: right;
+    width: calc(50% - 15px);
+    margin-left: 15px;
+}
+.homepage-article-left {
+	float: left;
+	width: 50%;
+}
+.view-homepage-article .views-field-title {
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+.homepage-article-right img {
+	margin: auto;
+}
+.view-homepage-article .views-field-created {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgba(0,0,0,.6);
+}
+.view-homepage-article .views-field-body {
+	line-height: 22px;
+}
+.view-homepage-article .views-field-nothing-1 {
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+.view-homepage-article .views-field-nothing-1 a {
+    padding: 5px 15px;
+    background: #039BE5;
+    color: #fff;
+}
+
+/* Homepage Callouts */
+.block-views-blockhomepage-callouts-block-1 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.view-homepage-callouts .callout-5, .view-homepage-callouts .callout-6 {
+    float: left;
+    width: calc(25% - 15px);
+    margin-right: 15px;
+}
+.view-homepage-callouts .callout-7, .view-homepage-callouts .callout-8 {
+    float: left;
+    width: calc(25% - 15px);
+    margin-left: 15px;
+}
+.view-homepage-callouts .views-field-title a{
+	color: #ffffff;
+    width: 100%;
+    display: block;
+    padding: 84px 15px 15px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.view-homepage-callouts .views-field-title a:hover {
+	text-decoration: none;
+}
+.view-homepage-callouts .callout-5 .views-field-title a {
+	background: rgba(3,155,229,1);
+}
+.view-homepage-callouts .callout-5 .views-field-title a:hover {
+	background: rgba(3,155,229,.8);
+}
+.view-homepage-callouts .callout-6 .views-field-title a {
+	background: rgba(67,160,71,1);
+}
+.view-homepage-callouts .callout-6 .views-field-title a:hover {
+	background: rgba(67,160,71,.8);
+}
+.view-homepage-callouts .callout-7 .views-field-title a {
+	background: rgba(97,97,97,1);
+}
+.view-homepage-callouts .callout-7 .views-field-title a:hover {
+	background: rgba(97,97,97,.8);
+}
+.view-homepage-callouts .callout-8 .views-field-title a {
+	background: rgba(239,108,0,1);
+}
+.view-homepage-callouts .callout-8 .views-field-title a:hover {
+	background: rgba(239,108,0,.8);
+}
+.view-homepage-callouts .views-field-field-su {
+	font-size: 16px;
+	margin-top: 15px;
+}
+.view-homepage-callouts .views-field-body {
+	padding: 15px 0;
+}
+
+#block-walkerton-inspireblock {
+	width: calc(50% - 7px);
+	float: left;
+	background: rgba(3,155,229,1);
+    padding: 11px 25px 0;
+    height: 129px;
+    color: white;
+}
+#block-walkerton-inspireblock .block-title {
+	font-weight: 600;
+}
+#block-walkerton-inspireblock .field--name-body {
+	font-size: 16px;
+}
+#block-walkerton-p4pbanner {
+	float: right;
+	width: calc(50% - 7px);
+}
+
+#block-walkerton-p4pbanner img {
+	width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+	background: rgba(97,97,97,1);
+	color: #ffffff;
+}
+
+footer h2 {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+footer a, footer a:hover {
+	color: #ffffff;
+}
+
+footer .block {
+	width: 50%;
+	float: left;
+}

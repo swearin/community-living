@@ -1,0 +1,12 @@
+name: 'Superslides Fullscreen Caption Slider'
+description: 'Superslides Fullscreen Caption Slider for Drupal 8'
+type: module
+package: 'Slider'
+# core: '8.x'
+
+
+# Information added by Drupal.org packaging script on 2016-11-02
+version: '8.x-1.1'
+core: '8.x'
+project: 'superslides'
+datestamp: 1478116444
