@@ -23,9 +23,17 @@ a:hover {
 	text-decoration: underline;
 }
 
+.page-header {
+    padding-bottom: 9px;
+    margin: 0 0 20px;
+    background: rgba(67,160,71,1);
+    color: white;
+    padding: 20px 15px;
+}
 .highlighted {
 	margin-top: -25px;
 }
+
 /* HEADER */
 
 .logo img {
@@ -71,6 +79,55 @@ a:hover {
 .navbar-nav>li:last-child a:hover {
 	background-color: #C2185B;
     color: #ffffff;	
+}
+.navbar-nav>li:last-child a.is-active, .navbar-nav>li:last-child a.is-active:hover {
+	background-color: #E91E63;
+    color: #ffffff;
+}
+.dropdown-menu>li>a {
+    display: block;
+    font-weight: 600;
+    color: #2d2d2d;
+    white-space: nowrap;
+    padding: 14px 16px;
+    font-size: 14px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	background-color: #039BE5;
+}
+
+/* Slider */
+.jssora01l, .jssora01r, .jssora10l, .jssora10r {
+	display: block !important;
+	top: 170px !important;
+}
+.view-id-homepage_slider img {
+	width: 100% !important;
+    height: auto !important;
+    margin-top: -130px;
+}
+.view-id-homepage_slider .views-field-body {
+	position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 21px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    max-width: 600px;
+    padding: 5px 15px;
+}
+.view-id-homepage_slider .views-field-title {
+	position: absolute;
+    top: 15%;
+    left: 10%;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    font-size: 29px;
+    max-width: 600px;
+    padding: 5px 15px;
+}
+.jssor-slider-container {
+	height: 400px !important;
 }
 
 /* Homepage Article */
@@ -228,6 +285,11 @@ footer .block {
 	float: left;
 }
 
+footer #block-copyright {
+	width: 100%;
+	margin-bottom: -20px;
+}
+
 #block-contactus .field--name-body {
 	font-size: 16px;
 }
@@ -239,3 +301,28 @@ footer .block {
 #block-contactus .field--name-body .fa-facebook-official, #block-contactus .field--name-body .fa-phone {
 	font-size: 22px;
 }
+
+/* SUB PAGES */
+
+.block-views-blockbursary-sidebar-block-1, .block-views-blockmembership-form-block-1, .block-views-blockvision-newsletter-block-1, .block-views-blockfeedback-forms-block-1 {
+	float: right;
+    width: calc(30% - 15px);
+    margin-left: 15px;
+    background: #f8f8f8;
+    padding: 15px;
+}
+.block-views-blockbursary-sidebar-block-1 h2, .block-views-blockmembership-form-block-1 h2, .block-views-blockvision-newsletter-block-1 h2, .block-views-blockfeedback-forms-block-1 h2 {
+	font-size: 21px;
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+article[about="/bursary"], article[about="/get-involved"], article[about="/mission"],  article[about="/accessibility"] {
+	float: left;
+	width: 70%;
+}
+.block-views-blockvision-newsletter-block-1 ul, .block-views-blockfeedback-forms-block-1 ul {
+    padding: 0;
+    list-style: none;
+ }
