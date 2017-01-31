@@ -1,14 +1,14 @@
 /**
  * Custom styles for CL Walkerton.
  */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700');
 
 /* OVERRIDES */
 
 .col-sm-12 {
 	padding-left: 0;
 	padding-right: 0;
-}
+}  	
 
 body {
 	padding-top: 40px;
@@ -32,6 +32,9 @@ a:hover {
 }
 .highlighted {
 	margin-top: -25px;
+}
+article[about="/node/1"] {
+	display: none;
 }
 
 /* HEADER */
@@ -104,11 +107,10 @@ a:hover {
 .view-id-homepage_slider img {
 	width: 100% !important;
     height: auto !important;
-    margin-top: -130px;
 }
 .view-id-homepage_slider .views-field-body {
 	position: absolute;
-    top: 25%;
+    top: 22%;
     left: 10%;
     font-size: 21px;
     color: #fff;
@@ -118,7 +120,7 @@ a:hover {
 }
 .view-id-homepage_slider .views-field-title {
 	position: absolute;
-    top: 15%;
+    top: 12%;
     left: 10%;
     color: #fff;
     background-color: rgba(0,0,0,.4);
@@ -302,6 +304,25 @@ footer #block-copyright {
 	font-size: 22px;
 }
 
+@media only screen and (max-width: 1199px) {
+	.views-field-field-google-address iframe {
+		width: 450px;
+	}
+	footer #block-contactus {
+		padding-left: 25px;
+	}
+	#block-walkerton-inspireblock {
+		height: 105px;
+	}
+	#block-walkerton-inspireblock .field--name-body {
+		font-size: 14px;
+	}
+	#block-walkerton-inspireblock .block-title {
+		margin-top: 8px;
+    	font-size: 25px;
+	}
+}
+
 /* SUB PAGES */
 
 .block-views-blockbursary-sidebar-block-1, .block-views-blockmembership-form-block-1, .block-views-blockvision-newsletter-block-1, .block-views-blockfeedback-forms-block-1 {
@@ -342,4 +363,18 @@ article[about="/bursary"], article[about="/get-involved"], article[about="/missi
 
 .page-node-type-article .field--name-field-image {
 	padding: 0 15px 10px 0;
+}
+
+.page-node-type-page .field--name-field-image {
+	margin-bottom: 30px;
+}
+
+article[data-history-node-id="14"] .field--name-body {
+	float: left;
+	width: 50%;
+}
+article[data-history-node-id="14"] .field--name-field-image {
+	float: left;
+    width: calc(50% - 20px);
+    margin-left: 20px;
 }
