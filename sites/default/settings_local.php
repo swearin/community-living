@@ -759,8 +759,8 @@ $settings['file_scan_ignore_directories'] = [
 # }
 $databases['default']['default'] = array (
   'database' => 'clwalker_drupal',
-  'username' => 'clwalker_dbuser',
-  'password' => '5h)c75GJdAKi',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
